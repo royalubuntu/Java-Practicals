@@ -1,4 +1,3 @@
-package Practical2;
 
 public class Diamond
 {

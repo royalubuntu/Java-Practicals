@@ -1,4 +1,4 @@
-package Practical3;
+
 import java.util.*;
 public class    EmpDy
 {

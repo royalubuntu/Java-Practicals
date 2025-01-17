@@ -1,5 +1,3 @@
-package Practical3;
-
 public class Employee
 {
     int empid = 100;
