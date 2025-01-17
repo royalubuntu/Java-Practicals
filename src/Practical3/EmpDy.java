@@ -1,6 +1,6 @@
 package Practical3;
 import java.util.*;
-public class EmpDy
+public class    EmpDy
 {
     int empid;
     double salary;
