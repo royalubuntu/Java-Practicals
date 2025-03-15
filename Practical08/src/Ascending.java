@@ -1,26 +1,27 @@
 public class Ascending
 {
-    public static void main(String[] args) {
-        int a[] = {20,10,40,50,12,80,90};
-        int temp,i,j;
-        for(i=0;i<a.length-1;i++)
+    public static void main(String[] args)
+    {
+        int arr[]={15,26,10,2,75,53};
+        System.out.print("\nOriginal Array ::: ");
+        for(int i=0;i<arr.length;i++)
         {
-            for (j=0;j<a.length-1;j++)
-            {
-                if(a[i]<a[j+1])
+            System.out.print(" "+arr[i]);
+        }
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1])
                 {
-                    temp = a[i];
-                    a[i]=a[j];
-                    a[j+1]= temp;
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                 }
-
             }
         }
-        for(int num:a)
+        System.out.print("\nAscending Order Array ::: ");
+        for (int i : arr)
         {
-            System.out.println(num);
+            System.out.print(" "+i);
         }
-
-
     }
 }
